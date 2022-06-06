@@ -1,0 +1,95 @@
+.sunnyside-header{
+    display: grid;
+    place-items: center;
+    background-image: url(../assets/imgs/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 50%;
+
+}
+.header-logo{
+    display: inline-block;
+    position: absolute;
+
+}
+
+.body-no-scroll{
+    overflow-y: hidden;
+}
+
+.header-wrapper{
+    width: 100%;
+    min-height: 85vh;
+    padding: 2rem;
+    max-width: 1440px
+}
+
+.header-top-wrapper{
+    display: flex;
+    align-items: center;
+    transition: bottom 300ms ease-in-out;
+    justify-content: flex-end;
+
+
+    
+}
+
+.menu-btn{
+    font-size: 2.2rem;
+    display: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.sunnyside-navigation{
+    
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 2.2rem;
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+.contact-btn{
+    background-color: var(--white);
+    padding: 0.7rem 1.5rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    color: black;
+
+}
+
+.header-apresentation{
+    display: flex;
+    margin-top: 6.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.title{
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--white);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.header-arrow{
+    margin-top: 6rem;
+}

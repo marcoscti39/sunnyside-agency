@@ -1,0 +1,80 @@
+
+@media (max-width: 1180px) {
+  .adjustment {
+    grid-column: 1;
+  }
+  .testimonials {
+    place-items: center;
+    grid-template-columns: 1fr;
+  }
+  .testimonials-person {
+    max-width: 500px;
+  }
+  .testimonials-text {
+    text-align: center;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .sunnyside-main {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .sunnyside-main .wrapper {
+    height: auto;
+    text-align: center;
+  }
+
+  .main-section-transform {
+    grid-row: 2;
+  }
+  .sunnyside-gallery{
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 700px){
+ .sunnyside-navigation{
+   position: relative;
+   z-index: 10;
+ }
+ .menu-btn{
+   display: inline-block;
+   position: absolute;
+   right: 2rem;
+   top: 2rem;
+   z-index: 10;
+ }
+ .header-top-wrapper{
+   position: absolute;
+   flex-direction: column;
+   justify-content: start;
+   padding-top: 7rem;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   top: 0;
+   background-color: var(--yellow);
+   transition: transform 300ms ease-in-out;
+   transform: translateX(100%);
+ }
+ 
+ .sunnyside-navigation ul{
+   flex-direction: column;
+ 
+ }
+ .sunnyside-navigation a{
+   font-size: 2.3rem;
+ }
+ 
+ .header-top-wrapper.show{
+   transform: translateX(0)
+ } 
+}
+
+
+@media (max-width: 460px){
+  .title{
+    font-size: 3rem;
+  }
+}

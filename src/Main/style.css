@@ -1,0 +1,132 @@
+.sunnyside-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 1440px;
+  margin-inline: auto;
+}
+.sunnyside-main .wrapper {
+  height: 55%;
+  max-width: 420px;
+}
+
+.main-section-title {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.transform-learn-more {
+  position: relative;
+  display: inline-block;
+  font-family: "Fraunces", serif;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.transform-learn-more::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0.6rem;
+  background-color: var(--soft-yellow);
+  border-radius: 5px;
+  z-index: -1;
+}
+
+.stand-out-learn-more {
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+  color: black;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.stand-out-learn-more::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0.6rem;
+  background-color: var(--soft-red);
+  border-radius: 5px;
+  z-index: -1;
+}
+
+.main-section-stand-out {
+  display: grid;
+  place-items: center;
+  line-height: 1.5rem;
+  text-align: start;
+}
+
+.main-section-transform {
+  display: grid;
+  place-items: center;
+  line-height: 1.5rem;
+  text-align: start;
+}
+
+.main-section-image > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-section-graphic-design {
+  display: grid;
+  align-content: center;
+  place-items: center;
+  background-image: url(../assets/imgs/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.title-graphic-design {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 20rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--dark-desaturated-blue);
+}
+
+.paragraph-graphic-design {
+  max-width: 350px;
+  color: var(--dark-desaturated-blue);
+  line-height: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.main-section-photography {
+  display: grid;
+  align-content: center;
+  place-items: center;
+  background-image: url(../assets/imgs/desktop/image-photography.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.title-photography {
+  margin-bottom: 2rem;
+  margin-top: 20rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.paragraph-photography {
+  max-width: 350px;
+  line-height: 1.5rem;
+  color: var(--very-dark-desaturated-blue);
+  margin-bottom: 1.3rem;
+}/*# sourceMappingURL=style.css.map */
